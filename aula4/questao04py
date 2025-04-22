@@ -1,0 +1,13 @@
+N, C = map(int, input().split())
+clones = C
+resultado = "Naruto defendeu a Vila"
+
+for _ in range(N):
+    Z, S = map(int, input().split())
+    clones += S
+    if Z > clones:
+        resultado = "Madara venceu"
+        break
+    clones -= Z
+
+print(resultado)
