@@ -1,0 +1,17 @@
+X, Y = map(int, input().split())
+
+if X < 1:
+    print("branca")
+else:
+    if Y >= 120:
+        print("marrom")
+    elif Y >= 110:
+        print("azul")
+    elif Y >= 90:
+        print("verde")
+    elif Y >= 72:
+        print("roxa")
+    elif Y >= 60:
+        print("amarela")
+    else:
+        print("branca")
